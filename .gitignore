@@ -1,0 +1,81 @@
+# Ignore everything in the root except the wp-content directory.
+!wp-content/
+
+# Ignore all directories in wp-content except themes.
+wp-content/*
+!wp-content/themes/
+
+# Ignore everything in the themes directory except your theme folder.
+wp-content/themes/*
+!wp-content/themes/arcturiananalytics/
+
+# Inside the theme folder, include all necessary files
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore configuration files
+wp-config.php
+
+# Ignore logs and error files
+*.log
+debug.log
+
+# Ignore SFTP config file
+.sftp-config.json
+
+# Ignore transient files
+*.tmp
+*.temp
+*.swp
+
+# Ignore node modules if using npm in theme development
+node_modules/
+npm-debug.log
+
+# Ignore Sass cache files
+.sass-cache/
+*.scssc
+
+# Ignore compiled CSS and JS if generated
+dist/
+
+# Ignore composer dependencies if using Composer
+vendor/
+
+# Ignore compiled stylesheets if using Prepros, Compass, etc.
+.sass-cache/
+*.css.map
+*.scssc
+
+# Ignore package lock files
+package-lock.json
+yarn.lock
+
+# Ignore any zip files of the theme
+*.zip
+
+# Ignore IDE specific folders and files
+.idea/
+*.code-workspace
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore macOS system files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Ignore temporary files created by the OS
+*.bak
+*.old
+
+# Ignore hidden system files
+*.swp
+*~
+
+# MacOS
+__MACOSX
+
