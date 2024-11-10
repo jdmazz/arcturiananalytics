@@ -46,7 +46,7 @@
 				<!-- /wp:paragraph -->
 
 				<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-				<p class="has-text-align-center has-small-font-size"><?php echo esc_html_x( 'Founder, CEO & Visionary', 'Sample role of a team member', 'arcturiananalytics' ); ?></p>
+				<p class="has-text-align-center has-small-font-size"><?php echo esc_html_x( 'Founder, CEO & Computational Physicist', 'Sample role of a team member', 'arcturiananalytics' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
